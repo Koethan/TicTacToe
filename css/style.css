@@ -22,7 +22,6 @@
 /*******************************************/
 
 body {
-
 }
 
 
@@ -31,6 +30,15 @@ body {
 /*******************************************/
 header {
 
+}
+
+section{
+     border: 1px solid black;
+     height: 200px;
+}
+.square{
+     border: 1px solid black;
+     width: 20%;
 }
 
 footer {
