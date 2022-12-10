@@ -11,6 +11,7 @@
      visibility: hidden;
      line-height: 0;
      height: 0;
+
 }
 
 .clear {
@@ -31,14 +32,22 @@ body {
 header {
 
 }
-
 section{
      border: 1px solid black;
-     height: 200px;
+}
+#board{
+     display: flex;
+     flex-wrap: wrap;
+     height: 500px;
+     width: 60%;
+}
+.row{
+     height: 33%;
+     display: flex;
+     
 }
 .square{
-     border: 1px solid black;
-     width: 20%;
+     display: flex;
 }
 
 footer {
