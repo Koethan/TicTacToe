@@ -1,6 +1,7 @@
 /* Box Model Hack */
 * {
      box-sizing: border-box;
+     overflow: auto;
 }
 
 /* Clear fix hack */
@@ -29,25 +30,33 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+.hidden{
+     display: none;
+}
 header {
-
+     text-align: center;
+     margin-bottom: 3%;
 }
 section{
      border: 1px solid black;
 }
 #board{
      display: flex;
+     margin: auto;
      flex-wrap: wrap;
      height: 500px;
      width: 60%;
 }
 .row{
-     height: 33%;
+     height: 33.33%;
+     width: 100%;
      display: flex;
      
 }
 .square{
      display: flex;
+     height: 100%;
+     width: 33.33%;
 }
 
 footer {

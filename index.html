@@ -12,21 +12,30 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
+		<header>
+			<h1>Tic Tac Toe</h1>
+			<p>Game is ready to play</p>
+			<p>Make the first move by clicking on a box</p>
+			<p>Player 1 starts with X</p>
+			<p>Player 2 starts with O</p>
+			<p>To undo, click last selected square</p>
+			<button id="reset">RESET</button>
+		</header>
 		<section id="board">
 			<section class="row">
-				<section id="square1" class="square"></section>
-				<section id="square2" class="square"></section>
-				<section id="square3" class="square"></section>
+				<section id="square0" class="square unselected"><span></span></section>
+				<section id="square1" class="square unselected"><span></span></section>
+				<section id="square2" class="square unselected"><span></span></section>
 			</section>
 			<section class="row">
-				<section id="square4" class="square"></section>
-				<section id="square5" class="square"></section>
-				<section id="square6" class="square"></section>
+				<section id="square3" class="square unselected"><span></span></section>
+				<section id="square4" class="square unselected"><span></span></section>
+				<section id="square5" class="square unselected"><span></span></section>
 			</section>
 			<section class="row">
-				<section id="square7" class="square"></section>
-				<section id="square8" class="square"></section>
-				<section id="square9" class="square"></section>
+				<section id="square6" class="square unselected"><span></span></section>
+				<section id="square7" class="square unselected"><span></span></section>
+				<section id="square8" class="square unselected"><span></span></section>
 			</section>
 		</section>
 		<script type="text/javascript" src="js/main.js"></script>
